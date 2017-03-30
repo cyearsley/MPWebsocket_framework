@@ -1,0 +1,17 @@
+{
+  "name": "multiplayer_framework",
+  "version": "1.0.0",
+  "description": "Framework for a multiplayer game.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cnyearsley@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.15.2",
+    "path": "^0.12.7",
+    "socket.io": "^1.7.3",
+    "uuid": "^3.0.1"
+  }
+}

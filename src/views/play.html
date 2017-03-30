@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"></meta>
+	<script src="js/game.js"></script>
+	<style>
+		canvas {
+			position: absolute;
+			top: 20px;
+			left: 20px;
+		}
+		#scenery-canvas {
+			background-color: blue;
+		}
+		#player-canvas {
+			background-color: black;
+		}
+	</style>
+</head>
+<body>
+	<!-- <canvas id="scenery-canvas" width=500 height=500></canvas> -->
+	<canvas id="player-canvas" width=700 height=700></canvas>
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+		var socket = io('http://localhost:8000/play');	</script>
+</body>
+</html>
